@@ -50,6 +50,20 @@ npm start
 
 Note: this assumes `node` is installed
 
+## Overall Approach
+
+Firstly on the framework choice, I used **React** for writing reusable components and integrated with **Semantic UI** for better design. To query randomuser API, I used **Axios** to make promised-based http request. The number of results to display is based on the /results={number} and **React Hooks** is implemented to better manage the state and props. After retrieving the data, I **mapped** each person in a list to a single card and set number of cards in a row to 5. The **Card**, **Header** and **Detail** component are built independently and integrated together. Lastly, **invalid inputs** are validated before submitting the form and a message will display if input is not valid.
+
+## To Be Improved
+
+| feature to add                              | time to complete |
+|---------------------------------------------|------------------|
+| add/delete contacts to/from "favorite" list | 2 hr             |
+| sort contact names by alphabetical order    | 2 hr             |
+| cache previous result and fetch when reload | 2 hr             |
+
+To make the project more robust if there is more time, I would create more extensive test suites with Jest and display different error messages on the frontend for different inputs. I would also introduce useEffect to better perform side effects since useState can be async and not updating the value right away. 
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
