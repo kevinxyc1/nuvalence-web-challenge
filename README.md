@@ -52,7 +52,12 @@ Note: this assumes `node` is installed
 
 ## Overall Approach
 
-Firstly on the framework choice, I used **React** for writing reusable components and integrated with **Semantic UI** for better design. To query randomuser API, I used **Axios** to make promised-based http request. The number of results to display is based on the /results={number} and **React Hooks** is implemented to better manage the state and props. After retrieving the data, I **mapped** each person in a list to a single card and set number of cards in a row to 5. The **Card**, **Header** and **Detail** component are built independently and integrated together. Lastly, **invalid inputs** are validated before submitting the form and a message will display if input is not valid.
+- Firstly, **React** is chosen for writing reusable components and it is integrated with **Semantic UI** for better design. 
+- To query randomuser API, I used **Axios** to make promised-based http request. 
+- The number of results to display is based on the /results={number} and **React Hooks** is implemented to better manage the state and props. 
+- After retrieving the data, each person in a list is **mapped** to a single card and set number of cards in a row to 5. 
+- The **Card**, **Header** and **Detail** component are built independently and integrated together. 
+- Lastly, **invalid inputs** are validated before submitting the form and a message will display if input is not valid.
 
 ## To Be Improved
 
