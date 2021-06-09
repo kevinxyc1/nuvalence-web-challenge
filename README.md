@@ -1,6 +1,6 @@
 # Address Book
 
-## **[Check out the hosted site here!](https://master.duq2qg6smh3q8.amplifyapp.com/)**:tada::tada:
+:tada:## **[Check out the hosted site here!](https://master.duq2qg6smh3q8.amplifyapp.com/)**:tada:
 
 <img src="https://github.com/kevinxyc1/nuvalence-web-challenge/blob/master/assets/ui.png" width="954" height="528">
 
@@ -30,8 +30,8 @@ All of the required features are implemented:
 
 ## Deployment
 
-The web application is already deployed onto AWS amplify. Here is the [link](https://master.duq2qg6smh3q8.amplifyapp.com/).
-The instructions for deployment is as following:
+The web application is already deployed onto AWS amplify. <br />
+The instructions for deployment is as following and can also be found [here](https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/module-one/?e=gs2020&p=build-a-react-app-intro):
 1. Log into AWS console and choose AWS Amplify
 2. In the AWS Amplify service console, select "Get Started" under Deploy
 3. Select GitHub as the repository service and select Continue
