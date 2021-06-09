@@ -2,13 +2,16 @@
 
 ## **[Check out the hosted site here!](https://master.duq2qg6smh3q8.amplifyapp.com/)**:tada:
 
-<img src="https://github.com/kevinxyc1/nuvalence-web-challenge/blob/master/assets/ui.png" width="954" height="528">
+<img src="https://github.com/kevinxyc1/nuvalence-web-challenge/blob/master/assets/ui.png" width="954" height="470">
 
 ## Features
 
 All of the required features are implemented:
 - display list of persons from address book
 - select a person to see details (first name, last name, phone number)
+- follows community standard syntax and style
+- has no debug logging, TODOs, or FIXMEs
+- testing coverage to ensure quality and safety
 
 **Additional Features**
 
@@ -67,7 +70,7 @@ Note: this assumes `node` is installed
 | sort contact names by alphabetical order    | 2 hr             |
 | cache previous result and fetch when reload | 2 hr             |
 
-To make the project more robust if there is more time, I would create more extensive test suites with Jest and display different error messages on the frontend for different inputs. I would also introduce useEffect to better perform side effects since useState can be async and not updating the value right away. 
+To make the project more robust if there is more time, I would create more extensive test suites with Jest and display different error messages on the frontend for different inputs. There could be tests for each component as well. I would also introduce useEffect to better perform side effects since useState can be async and not updating the value right away. 
 
 <!-- # Getting Started with Create React App
 
