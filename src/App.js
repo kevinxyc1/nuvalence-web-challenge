@@ -14,7 +14,6 @@ function App() {
   // Change number of contacts based on input value
   const onChange = (event) => {
     setNumberContact(event.target.value);
-    console.log(numberContact);
   }
 
   // Fetch data from API if input is valid
@@ -29,7 +28,7 @@ function App() {
         url: 'https://randomuser.me/api/?results=' + numberContact
       }).then((response) => {
         setPeople(response.data.results);
-        console.log(response.data.results);
+        console.log(response.data);
       }).catch((err) => {
         console.log(err);
       });
@@ -72,7 +71,7 @@ function App() {
       )}
 
       {/* Display data from API inside a container of cards*/}
-      <Container style={{ marginTop: "35px" }}>
+      <Container style={{ marginTop: "35px" }} data-testid="container">
         <Card.Group itemsPerRow={5} stackable style={{ marginTop: "20px" }}>
           {people &&
             people.map((person, index) => {
