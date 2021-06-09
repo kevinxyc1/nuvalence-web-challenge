@@ -1,4 +1,54 @@
-# Getting Started with Create React App
+# Address Book
+
+**[Check out the hosted site here!](https://master.duq2qg6smh3q8.amplifyapp.com/)**
+
+## Features
+
+All of the required features are implemented:
+- display list of persons from address book
+- select a person to see details (first name, last name, phone number)
+
+**Additional Features**
+
+- user can select how many contacts to display
+- deployed to AWS amplify
+- error handling for querying randomuser API
+- input validation for number of contacts to display
+- more details about persons such as image, location, email and date of birth
+- simple, modern UI
+- mobile responsive design
+
+
+## Technologies & Libraries
+
+- React and Javascript
+- [Semantic UI](https://react.semantic-ui.com/) for designing components and icons
+- [Axios](https://github.com/axios/axios) for the [randomuser](https://randomuser.me/) API requests
+- AWS Amplify for hosting
+
+## Deployment
+
+The web application is already deployed onto AWS amplify. Here is the [link](https://master.duq2qg6smh3q8.amplifyapp.com/).
+The instructions for deployment is as following:
+a. Log into AWS console and choose AWS Amplify
+b. In the AWS Amplify service console, select "Get Started" under Deploy
+c. Select GitHub as the repository service and select Continue
+d. Authenticate with GitHub and return to the Amplify console. Choose the repository and master branch you created earlier, then select Next
+e. Accept the default build settings and select Next
+f. Review the final details and select Save and Deploy.
+
+## Installation
+
+To run the project locally, run the following commands:
+
+```
+npm i
+npm start
+```
+
+Note: this assumes `node` is installed
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,7 +56,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +64,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +79,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -65,6 +115,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
