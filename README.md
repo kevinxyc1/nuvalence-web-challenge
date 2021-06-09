@@ -2,7 +2,7 @@
 
 ## **[Check out the hosted site here!](https://master.duq2qg6smh3q8.amplifyapp.com/)**:tada::tada:
 
-![UI](https://github.com/kevinxyc1/nuvalence-web-challenge/blob/master/assets/ui.png)
+<img src="https://github.com/kevinxyc1/nuvalence-web-challenge/blob/master/assets/ui.png" width="716" height="396">
 
 ## Features
 
