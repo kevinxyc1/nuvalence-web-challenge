@@ -2,7 +2,7 @@
 
 ## **[Check out the hosted site here!](https://master.duq2qg6smh3q8.amplifyapp.com/)**:tada::tada:
 
-<img src="https://github.com/kevinxyc1/nuvalence-web-challenge/blob/master/assets/ui.png" width="716" height="396">
+<img src="https://github.com/kevinxyc1/nuvalence-web-challenge/blob/master/assets/ui.png" width="954" height="528">
 
 ## Features
 
@@ -32,12 +32,12 @@ All of the required features are implemented:
 
 The web application is already deployed onto AWS amplify. Here is the [link](https://master.duq2qg6smh3q8.amplifyapp.com/).
 The instructions for deployment is as following:
-a. Log into AWS console and choose AWS Amplify
-b. In the AWS Amplify service console, select "Get Started" under Deploy
-c. Select GitHub as the repository service and select Continue
-d. Authenticate with GitHub and return to the Amplify console. Choose the repository and master branch you created earlier, then select Next
-e. Accept the default build settings and select Next
-f. Review the final details and select Save and Deploy.
+1. Log into AWS console and choose AWS Amplify
+2. In the AWS Amplify service console, select "Get Started" under Deploy
+3. Select GitHub as the repository service and select Continue
+4. Authenticate with GitHub and return to the Amplify console. Choose the repository and master branch you created earlier, then select Next
+5. Accept the default build settings and select Next
+6. Review the final details and select Save and Deploy.
 
 ## Installation
 
