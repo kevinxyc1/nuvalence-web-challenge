@@ -51,6 +51,11 @@ npm i
 npm start
 ```
 
+To test the project, run the command:
+```
+npm test
+```
+
 Note: this assumes `node` is installed
 
 ## Overall Approach
